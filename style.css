@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+/* announcement bar */
+
+#announcement, .announcement-contact {
+    display: flex;
+    align-items: center;
+}
+#announcement {
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+#announcement-container, #announcement {
+    background-color: #fafafa;
+}
+.announcement-mail {
+    margin-right: 20px;
+}
+.announcement-socials i {
+    padding-right: 10px;
+    color: #1977CC;
+}
+.announcement-contact i {
+    color: #1977CC;
+}
+
+
+
+
+/* header section*/
+
+#header {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+nav h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #2C4964;
+}
+#nav {
+    padding: 0;
+}
+#header-nav a {
+    color: #2C4964;
+    padding-left: 0;
+    padding-right: 0;
+}
+#header-nav li {
+    margin-right: 20px;
+}
+#header-nav a:hover {
+    border-bottom: 2px solid #1977CC;
+    color: #1977CC;
+}
+#header-nav a:active {
+    border-bottom: 2px solid #1977CC;
+    color: #1977CC;
+}
+.button {
+    background-color: #1977CC;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: "Raleway", sans-serif;
+}
+#mobile-menu {
+    background-color: #2C4964;
+    color: #ffffff;
+}
+
+
+
+
+/* hero section */
+#hero {
+    background: url(./Images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+#hero {
+    display: flex;
+    align-items: center;
+}
+#hero-content h1 {
+    font-weight: 700;
+}
+
+
+
+
+/* why section */
+.why-content {
+    padding: 2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.why-content-blue {
+    background: #1977CC;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.why-content-white {
+    background: #ffffff;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.1);
+}
+.why-content h2, .why-content h4 {
+    font-weight: 700;
+}
+#why-container {
+    background: #ffffff;
+}
+
+
+
+
+/* about section */
+#about-image {
+    background: url(./Images/about.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+#about-content h3, #about-content h5 {
+    font-weight: 700;
+}
+.about-usp {
+    display: flex;
+    align-items: center;
+}
+.about-icon {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1977CC;
+    color: #ffffff;
+}
+
+
+
+/* numbers section */
+#numbers-container {
+    background: #f1f7fd;
+}
+.white-numbers-container {
+    padding: 1rem 0;
+}
+.numbers-icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10%;
+    width: 40px;
+    height: 40px;
+    background-color: #1977CC;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.numbers-content {
+    background-color: #ffffff;
+    position: relative;
+}
+.numbers-text {
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+.numbers-text h3 {
+    font-weight: 700;
+}
+
+
+
+
+/* services section */
+#services-overall {
+    text-align: center;
+}
+#services-overall h3, #services-overall h4 {
+    font-weight: 700;
+}
+.services-card {
+    border: 1px solid #d5e1ed;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-card-container {
+    padding: 12px 0;
+}
+.services-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #1977CC;
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* appointment section */
+#appointment-overall {
+    text-align: center;
+}
+#appointment-overall h3, #appointment-overall h4 {
+    font-weight: 700;
+}
+.form-field, .form-button {
+    padding: 12px 0;
+}
+
+
+
+
+/* departments section */
+#departments-heading {
+    text-align: center;
+}
+#departments-overall h3 {
+    font-weight: 700;
+}
+#departments-overall a {
+    font-weight: 500;
+}
+#departments-overall h4 {
+    font-weight: 600;
+}
+#departments-overall img {
+    width: 100%;
+}
+#department-tab {
+    border: none;
+}
+#department-tab a {
+    border: none;
+    border-radius: 0;
+    border-right: 2px solid #ebf1f6;
+    color: #2C4964;
+}
+#department-tab a:hover, #department-tab a:active {
+    color: #1977CC;
+    border-right: 2px solid #1977CC;
+}
+
+
+
+/* doctors section */
+#doctors-heading {
+    text-align: center;
+}
+#doctors-overall h3, #doctors-overall h5 {
+    font-weight: 700;
+}
+.doctor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.doctor-card-image {
+    margin-right: 1rem;
+}
+.doctor-card hr {
+    width: 15%;
+}
+.doctor-card {
+    display: flex;
+    border: 1px solid;
+    padding: 1rem;
+}
+.doctor-card-container {
+    padding: 12px 0;
+}
+.doctor-card i {
+    width: 35px;
+    height: 35px;
+    background: #A0BCD5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+
+
+
+/* faq section */
+#faq-overall {
+    background: #F1F7FD;
+}
+#faq-heading {
+    text-align: center;
+}
+#faq-heading h3 {
+    font-weight: 700;
+}
+.faq-item {
+    background: #ffffff;
+}
+.faq-question a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #343a40;
+    width: 100%;
+}
+.faq-question a:hover, .faq-question a:active {
+    color: #1977CC;
+}
+
+
+
+
+
+/* gallery section */
+#gallery-heading {
+    text-align: center;
+}
+#gallery-heading h3 {
+    font-weight: 700;
+}
+
+
+
+
+
+/* contact section */
+#contact-heading {
+    text-align: center;
+}
+#contact-heading h3 {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .announcement-socials {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+@media (min-width: 1024px) {
+    #hero {
+        height: 90vh;
+    }
+}
+@media (max-width: 992px) {
+    #why-container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
